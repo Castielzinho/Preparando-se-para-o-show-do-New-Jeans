@@ -1,0 +1,24 @@
+body {
+    background-color: #168cc2;
+    color: white;
+    font-family: "Jaro", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 5;
+}
+
+button {
+    background-color: #ffffff;
+    color: black;
+    font-family: "Jaro", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
